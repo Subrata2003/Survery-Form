@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  width: 100%;
+
+  background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?cs=srgb&dl=pexels-pixabay-235985.jpg&fm=jpg);
+color:#ffffff;
+top: 0;
+ font-family:tahoma;
+ font-size: 15px;
+ display:block
+
+}
+h1,#description {
+  text-align:center;
+  margin:10px auto 10px auto;
+  display:block;
+  font-family:poppins;
+}
+ form {
+  background-color:#D2B48C;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:40px;
+  margin-top:40px;
+  border-radius:11px;
+  color:black;
+  height:auto;
+  padding:2rem
+ }
+ .info-form {
+   margin:0 auto 1.25rem auto;
+   padding:0.25rem;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+
+ }
+ label {
+margin-bottom:10px;
+width:80%;
+ }
+
+ input , select {
+   width:auto;
+   height:30px;
+   border-radius:10px;
+   font-size:15px;
+ }
+input[type="radio"] {
+  height:20px;
+  margin-left:20px;
+  width:15px;
+   vertical-align: middle;
+}
+input[type="checkbox"] {
+  vertical-align:middle;
+}
+
+textarea {
+  width: 100%;
+  font-size:16px;
+  height:100px;
+}
+input[type="submit"] {
+  width:100%;
+  color:white;
+  background-color:green;
+  border:2px solid black;
+}
+
+ 
